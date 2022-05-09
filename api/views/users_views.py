@@ -115,9 +115,6 @@ class TeacherUpdateApiView(RetrieveUpdateAPIView):
         return self.partial_update(request, *args, **kwargs)
 
 
-
-
-
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     # @classmethod
     # def get_token(cls, user):
